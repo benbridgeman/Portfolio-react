@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px) {
+  .App-container {
+    width: 90vw;
+  }
+  .Project-container {
+    position: relative;
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .App-container {
+    width: 95vw;
+  }
+  .Project-container {
+    position: relative;
+    width: 100%;
+  }
+  .Footer-content {
+    font-size: calc(10px + 2vmin);
+  }
+}
