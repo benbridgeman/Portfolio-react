@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+
+$lightGrey: #dfdfdf;
+$medGrey: #6e6e6e;
+$header-font: 'Raleway', sans-serif;
+
+header {
+  h1 {
+    font-weight: 300;
+    font-family: $header-font;
+  }
+
+  .App-header {
+    font-size: calc(10px + 2vmin);
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+}
+
+.App {
+	text-align: left;
+	background-color: $lightGrey;
+	color: $medGrey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.App-container {
+	width: 85vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Project-showcase {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Project-container {
+	position: relative;
+	width: calc(100% /3);
+}
+
+.Project-img {
+	max-width: 100%;
+	display: block;
+}
+
+.Project-description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+  padding: 1.5em;
+  color: $lightGrey;
+	background: #282c34cb;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.Project-container:hover .Project-description {
+	transition: 0.5s;
+	opacity: 1;
+}
+
+em {
+	color: #00a8db;
+}
+
+.Footer-content {
+	font-size: .6em;
+}

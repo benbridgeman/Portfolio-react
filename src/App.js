@@ -54,7 +54,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				<div className="App-container">
-					<Header name="Ben" />
+					<Header name="BEN BRIDGEMAN" />
 					<Projects projects={this.state.projects} />
 					<Footer email="ben_bridgeman@hotmail.co.uk" phone="07531413568" />
 				</div>

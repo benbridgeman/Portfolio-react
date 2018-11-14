@@ -5,7 +5,7 @@ class Header extends Component {
 		return (
 			<header className="App-header">
 				<div className="Header-content">
-					<h1>Hi, I'm {this.props.name} :)</h1>
+					<h1>{this.props.name}<span class="bold">PORTFOLIO</span></h1>
 				</div>
 			</header>
 		);

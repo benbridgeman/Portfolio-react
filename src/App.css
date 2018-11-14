@@ -1,7 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+header h1 {
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+header .App-header {
+  font-size: calc(10px + 2vmin);
+}
+header .bold {
+  font-weight: 600;
+}
+
 .App {
   text-align: left;
-  background-color: #282c34;
-  color: white;
+  background-color: #dfdfdf;
+  color: #6e6e6e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,11 +25,6 @@
   width: 85vw;
   margin-left: auto;
   margin-right: auto;
-}
-
-.App-header {
-  width: 100%;
-  font-size: calc(10px + 2vmin);
 }
 
 .Project-showcase {
@@ -40,6 +47,7 @@
   bottom: 0;
   left: 0;
   padding: 1.5em;
+  color: #dfdfdf;
   background: #282c34cb;
   transition: 0.5s;
   opacity: 0;
@@ -55,5 +63,7 @@ em {
 }
 
 .Footer-content {
-  font-size: .6em;
+  font-size: 0.6em;
 }
+
+/*# sourceMappingURL=App.css.map */
